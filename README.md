@@ -1,20 +1,16 @@
-# dio-laravel-api
-Projeto Laravel: construindo uma API do zero, na LiveCoding da DIO em 06/04
+# 🖥️ dio-laravel-api  
 
-1. Instalar o PHP (7.1 para esse projeto)
-2. Instalar o Composer
+Este repositório contém a implementação de uma **API RESTful** utilizando o **Laravel**, um dos frameworks PHP mais populares. A API pode ser utilizada para fornecer dados em formato JSON para aplicações frontend ou sistemas que precisem consumir informações de forma eficiente.
 
-Após clonar o projeto, rodar na pasta:
-```
-composer install
-```
+## 🎯 Objetivo
 
-Para subir um servidor local:
-```
-php artisan server
-```
+Este projeto tem como objetivo demonstrar como construir uma API simples com **Laravel**, cobrindo conceitos como **rotas**, **controladores**, **autenticação** e **banco de dados**. A API pode ser expandida para diversas aplicações, como sistemas de gerenciamento de usuários, produtos, ou qualquer outro tipo de dado.
 
-Saber as rotas disponíveis:
-```
-php artisan route:list
-```
+## 🚀 Tecnologias Utilizadas
+
+- **PHP** (Laravel 8.x ou superior)
+- **Laravel** (Framework PHP)
+- **MySQL** ou **SQLite** (Banco de Dados Relacional)
+- **Postman** ou **Insomnia** (Para testar a API)
+- **JWT (JSON Web Tokens)** (Para autenticação)
+- **Docker** (Se necessário, para containerização)
